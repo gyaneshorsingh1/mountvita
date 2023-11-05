@@ -52,9 +52,15 @@ h2 {
 }
 
 
+
+
 .container>h2 {
-    font-size: 30px;
+    display: flex;
+    align-items: center;
     
+}
+.container>h2>img{
+    width: 15vw;
 }
 
 .nav {
@@ -454,6 +460,7 @@ footer h3{
         font-size: 24px;
         margin-bottom: 20px;
     }
+    
     p{
         font-size: 12px;
     }
@@ -536,6 +543,12 @@ footer h3{
     }
     .container1 .f-page .left-1 h2, .container2 .about .left-2 h2{
         font-size: 17px;
+    }
+    .container1 .f-page{
+        height: 70vh;
+    }
+    .container1 .right-1 img {
+        width: 70vw;
     }
     .container3 .service .right-3 h2{
         font-size: 17px;
